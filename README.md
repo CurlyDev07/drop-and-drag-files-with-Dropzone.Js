@@ -23,7 +23,7 @@ Actual Example
   </head>
   <body>
   
-  <form action="/upload" method="POST" enctype="multipart/form-data" class="dropzone" id="my-awesome-dropzone">
+  //<form action="/upload" method="POST" enctype="multipart/form-data" class="dropzone" id="my-awesome-dropzone">
       {{ csrf_field() }}
   </form>
   
